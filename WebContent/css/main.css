@@ -139,13 +139,13 @@ a {
 	-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 	transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 	border-bottom: dotted 1px;
-	color: #f56a6a;
+	color: #25a8ca;
 	text-decoration: none;
 }
 
 a:hover {
-	border-bottom-color: #f56a6a;
-	color: #f56a6a !important;
+	border-bottom-color: #25a8ca;
+	color: #25a8ca !important;
 }
 
 a:hover strong {
@@ -1765,7 +1765,7 @@ header p {
 }
 
 header.major > :last-child {
-	border-bottom: solid 3px #f56a6a;
+	border-bottom: solid 3px #25a8ca;
 	display: inline-block;
 	margin: 0 0 2em 0;
 	padding: 0 0.75em 0.5em 0;
@@ -1831,8 +1831,8 @@ input[type="search"]:focus,
 input[type="url"]:focus,
 select:focus,
 textarea:focus {
-	border-color: #f56a6a;
-	box-shadow: 0 0 0 1px #f56a6a;
+	border-color: #25a8ca;
+	box-shadow: 0 0 0 1px #25a8ca;
 }
 
 select {
@@ -1940,8 +1940,8 @@ input[type="radio"]:checked + label:before {
 
 input[type="checkbox"]:focus + label:before,
 input[type="radio"]:focus + label:before {
-	border-color: #f56a6a;
-	box-shadow: 0 0 0 1px #f56a6a;
+	border-color: #25a8ca;
+	box-shadow: 0 0 0 1px #25a8ca;
 }
 
 input[type="checkbox"] + label:before {
@@ -2271,7 +2271,7 @@ ul.contact li:before {
 }
 
 ul.contact li:before {
-	color: #f56a6a;
+	color: #25a8ca;
 	display: inline-block;
 	font-size: 1.5em;
 	height: 1.125em;
@@ -2329,16 +2329,16 @@ ul.pagination li > .page {
 }
 
 ul.pagination li > .page.active {
-	background-color: #f56a6a;
+	background-color: #25a8ca;
 	color: #ffffff !important;
 }
 
 ul.pagination li > .page.active:hover {
-	background-color: #f67878;
+	background-color: #25a8ca;
 }
 
 ul.pagination li > .page.active:active {
-	background-color: #f45c5c;
+	background-color: #25a8ca;
 }
 
 ul.pagination li:first-child {
@@ -2443,8 +2443,8 @@ button,
 	background-color: transparent;
 	border-radius: 0.375em;
 	border: 0;
-	box-shadow: inset 0 0 0 2px #f56a6a;
-	color: #f56a6a !important;
+	box-shadow: inset 0 0 0 2px #25a8ca;
+	color: #25a8ca !important;
 	cursor: pointer;
 	display: inline-block;
 	font-family: "Roboto Slab", serif;
@@ -2515,7 +2515,7 @@ input[type="reset"].primary,
 input[type="button"].primary,
 button.primary,
 .button.primary {
-	background-color: #f56a6a;
+	background-color: #25a8ca;
 	box-shadow: none;
 	color: #ffffff !important;
 }
@@ -2525,7 +2525,7 @@ input[type="reset"].primary:hover,
 input[type="button"].primary:hover,
 button.primary:hover,
 .button.primary:hover {
-	background-color: #f67878;
+	background-color: #25a8ca;
 }
 
 input[type="submit"].primary:active,
@@ -2533,7 +2533,7 @@ input[type="reset"].primary:active,
 input[type="button"].primary:active,
 button.primary:active,
 .button.primary:active {
-	background-color: #f45c5c;
+	background-color: #25a8ca;
 }
 
 input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2630,7 +2630,7 @@ button:disabled,
 }
 
 .features article .icon:before {
-	color: #f56a6a;
+	color: #25a8ca;
 	font-size: 2.75rem;
 	position: relative;
 	top: 0.05em;
@@ -3048,7 +3048,7 @@ button:disabled,
 	-webkit-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
 	-ms-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
 	transition: margin-left 0.5s ease, box-shadow 0.5s ease;
-	background-color: #f5f6f7;
+	background-color: #f8f8ff; /* Background - side panel */
 	font-size: 0.9em;
 	position: relative;
 	width: 26em;
@@ -3251,7 +3251,7 @@ button:disabled,
 	display: -webkit-flex;
 	display: -ms-flex;
 	display: flex;
-	border-bottom: solid 5px #f56a6a;
+	border-bottom: solid 5px #25a8ca;
 	padding: 6em 0 1em 0;
 	position: relative;
 }
@@ -3435,7 +3435,7 @@ button:disabled,
 }
 
 #menu ul a:hover, #menu ul span:hover {
-	color: #f56a6a;
+	color: #25a8ca;
 }
 
 #menu ul a.opener, #menu ul span.opener {
@@ -3473,7 +3473,7 @@ button:disabled,
 }
 
 #menu ul a.opener:hover:before, #menu ul span.opener:hover:before {
-	color: #f56a6a;
+	color: #25a8ca;
 }
 
 #menu ul a.opener.active + ul, #menu ul span.opener.active + ul {
