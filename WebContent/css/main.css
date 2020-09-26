@@ -1,6 +1,14 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
 
+.not_bold { font-weight:normal; }
+
+img.displayed {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2612,6 +2620,10 @@ button:disabled,
 	margin-bottom: 0;
 }
 
+.features article a{
+	border-bottom:none;
+}
+
 .features article .icon {
 	-moz-flex-grow: 0;
 	-webkit-flex-grow: 0;
@@ -3514,3 +3526,18 @@ button:disabled,
 	margin-top: 0;
 	padding-top: 0;
 }
+@media screen and (max-width: 480px) {
+	img.displayed {
+		display: block;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: auto;
+			}
+		}
+
+@media only screen and (min-width:980px) {
+	#sidebar .toggle{
+		display:none;
+			}
+		}

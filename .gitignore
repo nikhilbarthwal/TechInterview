@@ -8,7 +8,7 @@ debug
 release
 output_*
 joutput_*
-convert.java
+format.java
 
 # Compiled Object files
 *.slo
