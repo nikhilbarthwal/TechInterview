@@ -1,0 +1,22 @@
+#3d4449 - Dark grey: Headlines fonts
+#7f888f - Light grey: Fonts on main page
+#9fa3a6 - Very light grey: Fonts on side panel & copyright
+
+#eff1f2 - Cream white: Search background
+#f5f6f7 - Dark cream: Background of side panel
+#ffffff - White
+
+#f45c5c - Light red
+#f56a6a - Lighter Red
+#f67878 - Light Red
+
+________________________________
+Media size:
+
+1280 -> 980
+1680 -> 1380
+360px -> 360
+480px -> 480
+736px -> 736px
+980px -> 820px
+1681px -> 1381px
