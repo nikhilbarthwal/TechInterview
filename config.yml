@@ -1,0 +1,19 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: FtpUpload@2
+  inputs:
+    credentialsOption: 'inputs'
+    serverUrl: $(Server)
+    username: $(Username)
+    password: $(Password)
+    rootDirectory: './WebContent/'
+    filePatterns: '**' 
+    remoteDirectory: './' 
+    clean: true
+    cleanContents: true
+    preservePaths: true
